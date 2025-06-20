@@ -5,6 +5,7 @@ from smolagents import CodeAgent, HfApiModel
 
 from tools.film_recommender import FilmRecommender
 from tools.final_answer import FinalAnswerTool
+from tools.watchlist import watchlist
 
 # load the model from Hugging Face
 model = HfApiModel(
@@ -17,7 +18,7 @@ model = HfApiModel(
 # define tools
 film_recommender = FilmRecommender()
 final_answer = FinalAnswerTool()
-tools = [film_recommender, final_answer]
+tools = [film_recommender, final_answer, watchlist]
 
 # define prompt templates
 with open("prompts.yaml", "r") as stream:
