@@ -3,7 +3,7 @@ import requests
 
 from smolagents import Tool
 
-OMDB_API_KEY = os.getenv("OMDB_API_KEY")
+OMDB_API_KEY = os.getenv("OMDB_API")
 
 
 class FilmMetadata(Tool):
