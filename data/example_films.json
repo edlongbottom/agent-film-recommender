@@ -1,0 +1,366 @@
+[
+    {
+        "title": "Inception",
+        "genre": "sci-fi",
+        "mood": "mind-bending",
+        "desc": "A mind-bending thriller about dreams within dreams.",
+        "score": 8.8
+    },
+    {
+        "title": "The Princess Bride",
+        "genre": "comedy",
+        "mood": "uplifting",
+        "desc": "A fairy tale adventure full of humor and romance.",
+        "score": 8.1
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "genre": "action",
+        "mood": "thrilling",
+        "desc": "A high-octane chase through a post-apocalyptic wasteland.",
+        "score": 8.1
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "genre": "drama",
+        "mood": "inspiring",
+        "desc": "A story of hope and friendship inside a prison.",
+        "score": 9.3
+    },
+    {
+        "title": "The Godfather",
+        "genre": "crime",
+        "mood": "intense",
+        "desc": "A powerful saga of a mafia family.",
+        "score": 9.2
+    },
+    {
+        "title": "Pulp Fiction",
+        "genre": "crime",
+        "mood": "quirky",
+        "desc": "Interwoven stories of crime and redemption in LA.",
+        "score": 8.9
+    },
+    {
+        "title": "Forrest Gump",
+        "genre": "drama",
+        "mood": "heartwarming",
+        "desc": "A simple man's journey through extraordinary times.",
+        "score": 8.8
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "action",
+        "mood": "dark",
+        "desc": "Batman faces the Joker in a battle for Gotham.",
+        "score": 9.0
+    },
+    {
+        "title": "Back to the Future",
+        "genre": "sci-fi",
+        "mood": "fun",
+        "desc": "A teen travels through time in a DeLorean.",
+        "score": 8.5
+    },
+    {
+        "title": "Amélie",
+        "genre": "romance",
+        "mood": "whimsical",
+        "desc": "A shy waitress brings joy to those around her in Paris.",
+        "score": 8.3
+    },
+    {
+        "title": "The Matrix",
+        "genre": "sci-fi",
+        "mood": "mind-bending",
+        "desc": "A hacker discovers reality is a simulation.",
+        "score": 8.7
+    },
+    {
+        "title": "Spirited Away",
+        "genre": "animation",
+        "mood": "magical",
+        "desc": "A girl enters a world of spirits and must save her parents.",
+        "score": 8.6
+    },
+    {
+        "title": "Jurassic Park",
+        "genre": "adventure",
+        "mood": "exciting",
+        "desc": "Dinosaurs run amok in a theme park.",
+        "score": 8.2
+    },
+    {
+        "title": "The Lion King",
+        "genre": "animation",
+        "mood": "uplifting",
+        "desc": "A lion cub's journey to become king.",
+        "score": 8.5
+    },
+    {
+        "title": "Fight Club",
+        "genre": "drama",
+        "mood": "dark",
+        "desc": "An insomniac forms an underground fight club.",
+        "score": 8.8
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "genre": "comedy",
+        "mood": "quirky",
+        "desc": "A concierge and his protégé get caught up in a murder mystery.",
+        "score": 8.1
+    },
+    {
+        "title": "Finding Nemo",
+        "genre": "animation",
+        "mood": "heartwarming",
+        "desc": "A clownfish searches for his lost son.",
+        "score": 8.2
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "genre": "thriller",
+        "mood": "intense",
+        "desc": "An FBI trainee seeks help from a cannibal to catch a killer.",
+        "score": 8.6
+    },
+    {
+        "title": "La La Land",
+        "genre": "romance",
+        "mood": "uplifting",
+        "desc": "A jazz musician and an actress fall in love in LA.",
+        "score": 8.0
+    },
+    {
+        "title": "The Social Network",
+        "genre": "drama",
+        "mood": "thought-provoking",
+        "desc": "The rise of Facebook and its founder.",
+        "score": 7.8
+    },
+    {
+        "title": "Toy Story",
+        "genre": "animation",
+        "mood": "fun",
+        "desc": "Toys come to life when humans aren't looking.",
+        "score": 8.3
+    },
+    {
+        "title": "Alien",
+        "genre": "sci-fi",
+        "mood": "tense",
+        "desc": "A crew battles a deadly alien on their spaceship.",
+        "score": 8.5
+    },
+    {
+        "title": "The Big Lebowski",
+        "genre": "comedy",
+        "mood": "quirky",
+        "desc": "A laid-back bowler gets caught up in a kidnapping plot.",
+        "score": 8.1
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "genre": "romance",
+        "mood": "melancholic",
+        "desc": "A couple erases memories of each other.",
+        "score": 8.3
+    },
+    {
+        "title": "The Avengers",
+        "genre": "action",
+        "mood": "exciting",
+        "desc": "Marvel superheroes unite to save the world.",
+        "score": 8.0
+    },
+    {
+        "title": "Pan's Labyrinth",
+        "genre": "fantasy",
+        "mood": "dark",
+        "desc": "A girl discovers a magical labyrinth during wartime.",
+        "score": 8.2
+    },
+    {
+        "title": "Whiplash",
+        "genre": "drama",
+        "mood": "intense",
+        "desc": "A young drummer faces a ruthless music teacher.",
+        "score": 8.5
+    },
+    {
+        "title": "Her",
+        "genre": "sci-fi",
+        "mood": "thought-provoking",
+        "desc": "A man falls in love with an AI operating system.",
+        "score": 8.0
+    },
+    {
+        "title": "The Truman Show",
+        "genre": "drama",
+        "mood": "thought-provoking",
+        "desc": "A man discovers his life is a reality TV show.",
+        "score": 8.2
+    },
+    {
+        "title": "Guardians of the Galaxy",
+        "genre": "action",
+        "mood": "fun",
+        "desc": "A group of misfits bands together to save the galaxy.",
+        "score": 8.0
+    },
+    {
+        "title": "Casablanca",
+        "genre": "romance",
+        "mood": "classic",
+        "desc": "A love triangle unfolds in WWII Morocco.",
+        "score": 8.5
+    },
+    {
+        "title": "The Shining",
+        "genre": "horror",
+        "mood": "tense",
+        "desc": "A family is haunted in an isolated hotel.",
+        "score": 8.4
+    },
+    {
+        "title": "Interstellar",
+        "genre": "sci-fi",
+        "mood": "epic",
+        "desc": "Astronauts travel through a wormhole to save humanity.",
+        "score": 8.6
+    },
+    {
+        "title": "The Departed",
+        "genre": "crime",
+        "mood": "intense",
+        "desc": "An undercover cop and a mole try to identify each other.",
+        "score": 8.5
+    },
+    {
+        "title": "The Sound of Music",
+        "genre": "musical",
+        "mood": "uplifting",
+        "desc": "A governess brings music and joy to a family in Austria.",
+        "score": 8.1
+    },
+    {
+        "title": "Goodfellas",
+        "genre": "crime",
+        "mood": "gritty",
+        "desc": "The rise and fall of a mob associate.",
+        "score": 8.7
+    },
+    {
+        "title": "The Prestige",
+        "genre": "drama",
+        "mood": "mysterious",
+        "desc": "Two rival magicians engage in a deadly feud.",
+        "score": 8.5
+    },
+    {
+        "title": "The Intouchables",
+        "genre": "comedy",
+        "mood": "uplifting",
+        "desc": "An unlikely friendship between a quadriplegic and his caregiver.",
+        "score": 8.5
+    },
+    {
+        "title": "City of God",
+        "genre": "crime",
+        "mood": "gritty",
+        "desc": "A look at organized crime in the slums of Rio.",
+        "score": 8.6
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "genre": "comedy",
+        "mood": "wild",
+        "desc": "A stockbroker's rise and fall in the world of finance.",
+        "score": 8.2
+    },
+    {
+        "title": "Coco",
+        "genre": "animation",
+        "mood": "heartwarming",
+        "desc": "A boy journeys to the Land of the Dead to discover his family's history.",
+        "score": 8.4
+    },
+    {
+        "title": "Arrival",
+        "genre": "sci-fi",
+        "mood": "thought-provoking",
+        "desc": "A linguist communicates with aliens to prevent war.",
+        "score": 7.9
+    },
+    {
+        "title": "The Green Mile",
+        "genre": "drama",
+        "mood": "emotional",
+        "desc": "A death row guard discovers a prisoner's supernatural gift.",
+        "score": 8.6
+    },
+    {
+        "title": "The Sixth Sense",
+        "genre": "thriller",
+        "mood": "mysterious",
+        "desc": "A boy who sees dead people seeks help from a psychologist.",
+        "score": 8.1
+    },
+    {
+        "title": "Up",
+        "genre": "animation",
+        "mood": "uplifting",
+        "desc": "An old man and a boy go on an adventure in a flying house.",
+        "score": 8.3
+    },
+    {
+        "title": "Parasite",
+        "genre": "thriller",
+        "mood": "dark",
+        "desc": "A poor family infiltrates a wealthy household.",
+        "score": 8.5
+    },
+    {
+        "title": "The Pursuit of Happyness",
+        "genre": "drama",
+        "mood": "inspiring",
+        "desc": "A struggling salesman fights for a better life for his son.",
+        "score": 8.0
+    },
+    {
+        "title": "Shrek",
+        "genre": "animation",
+        "mood": "fun",
+        "desc": "An ogre goes on a quest to rescue a princess.",
+        "score": 7.9
+    },
+    {
+        "title": "The Notebook",
+        "genre": "romance",
+        "mood": "emotional",
+        "desc": "A love story spanning decades.",
+        "score": 7.8
+    },
+    {
+        "title": "Get Out",
+        "genre": "horror",
+        "mood": "tense",
+        "desc": "A man uncovers disturbing secrets at his girlfriend's family home.",
+        "score": 7.7
+    },
+    {
+        "title": "The Revenant",
+        "genre": "adventure",
+        "mood": "gritty",
+        "desc": "A frontiersman fights for survival after being left for dead.",
+        "score": 8.0
+    },
+    {
+        "title": "Inside Out",
+        "genre": "animation",
+        "mood": "heartwarming",
+        "desc": "A young girl's emotions help her navigate a big move.",
+        "score": 8.1
+    }
+]
