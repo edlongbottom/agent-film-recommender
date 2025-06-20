@@ -16,16 +16,19 @@ class FilmRecommender(Tool):
             "type": "string",
             "description": "The genre of the film (e.g., Action, Comedy, Drama).",
             "required": False,
+            "nullable": True,
         },
         "mood": {
             "type": "string",
             "description": "User's current mood or desired film mood (e.g., 'uplifting', 'thrilling').",
             "required": False,
+            "nullable": True,
         },
         "score": {
             "type": "number",
             "description": "Film IMDB score threshold (between 0 to 10) above which the user expects the film to score.",
             "required": False,
+            "nullable": True,
         },
     }
 
