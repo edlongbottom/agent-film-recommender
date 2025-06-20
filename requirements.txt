@@ -1,1 +1,2 @@
 smolagents==1.9.2
+requests

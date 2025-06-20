@@ -4,6 +4,7 @@ from gradio_ui import GradioUI
 from smolagents import CodeAgent, HfApiModel
 
 from tools.film_recommender import FilmRecommender
+from tools.film_metadata import FilmMetadata
 from tools.final_answer import FinalAnswerTool
 from tools.watchlist import watchlist
 
@@ -18,7 +19,8 @@ model = HfApiModel(
 # define tools
 film_recommender = FilmRecommender()
 final_answer = FinalAnswerTool()
-tools = [film_recommender, final_answer, watchlist]
+film_info = FilmMetadata()
+tools = [film_recommender, final_answer, film_info, watchlist]
 
 # define prompt templates
 with open("prompts.yaml", "r") as stream:
