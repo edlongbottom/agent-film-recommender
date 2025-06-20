@@ -23,7 +23,7 @@ class FilmRecommender(Tool):
             "required": False,
         },
         "score": {
-            "type": "float",
+            "type": "number",
             "description": "Film IMDB score threshold (between 0 to 10) above which the user expects the film to score.",
             "required": False,
         },
