@@ -11,10 +11,10 @@ def watchlist(action: str, film: str | None = None) -> str:
 
     Args:
         action: 'add', 'remove', or 'view'
-        film (str): The title of the film to add or remove (not needed for 'view')
+        film: The title of the film to add or remove (not needed for 'view')
 
     Returns:
-        str: A message indicating the result or the current watchlist.
+        A message indicating the result or the current watchlist.
     """
 
     if action == "add" and film:
