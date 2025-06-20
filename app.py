@@ -2,11 +2,12 @@ import yaml
 
 from gradio_ui import GradioUI
 
-from smolagents import CodeAgent, HfApiModel
+from smolagents import CodeAgent, HfApiModel, InferenceClientModel
 from tools.film_recommender import FilmRecommender
+from tools.final_answer import FinalAnswerTool
 
 # load the model from Hugging Face
-model = HfApiModel(
+model = InferenceClientModel(
     max_tokens=2096,
     temperature=0.5,
     model_id="Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -19,8 +20,9 @@ with open("prompts.yaml", "r") as stream:
 
 # define tools
 film_recommender = FilmRecommender()
+final_answer = FinalAnswerTool()
 
-tools = [film_recommender]
+tools = [film_recommender, final_answer]
 
 # define code agent
 agent = CodeAgent(
