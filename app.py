@@ -5,6 +5,7 @@ from smolagents import CodeAgent, HfApiModel
 
 from tools.film_recommender import FilmRecommender
 from tools.film_metadata import FilmMetadata
+
 from tools.final_answer import FinalAnswerTool
 from tools.watchlist import watchlist
 
@@ -23,8 +24,9 @@ film_info = FilmMetadata()
 tools = [film_recommender, final_answer, film_info, watchlist]
 
 # define prompt templates
-# with open("prompts.yaml", "r") as stream:
-#     prompt_templates = yaml.safe_load(stream)
+with open("prompts.yaml", "r") as stream:
+    prompt_templates = yaml.safe_load(stream)
+
 
 # define code agent
 agent = CodeAgent(
@@ -36,7 +38,7 @@ agent = CodeAgent(
     planning_interval=None,
     name=None,
     description=None,
-    # prompt_templates=prompt_templates,
+    prompt_templates=prompt_templates,
 )
 
 # launch the app

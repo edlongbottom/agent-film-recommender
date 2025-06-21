@@ -10,7 +10,7 @@ class FilmMetadata(Tool):
     name = "film_metadata"
     description = """
     Retrieves information about a film given its title using the OMDB API.
-    Returns an object including the film's title, director, release date, IMDB score, plot etc.
+    Returns a string including the film's title, director, release date, IMDB score, plot etc.
     """
 
     inputs = {
@@ -20,7 +20,7 @@ class FilmMetadata(Tool):
             "required": True,
         }
     }
-    output_type = "object"
+    output_type = "string"
 
     def forward(
         self,
