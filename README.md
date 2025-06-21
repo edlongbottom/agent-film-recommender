@@ -30,4 +30,4 @@ I used HuggingFace spaces to host the app, and it interacts with a HuggingFace-h
 
 The following tokens must be created and added to the space as secrets:
 - `HF_TOKEN`: HuggingFace access token 
-- `OMDB_API`: OMDB API key can be created[here](https://www.omdbapi.com/apikey.aspx)
+- `OMDB_API`: OMDB API key can be created [here](https://www.omdbapi.com/apikey.aspx)
