@@ -38,8 +38,8 @@ class FilmMetadata(Tool):
             }
 
         return f"""
-                {data['Title']} is a {data['Genre']} film directed by {data['Director']}. It was  
-                released on {data['Released']} and is {data['Runtime']} long.\n
-                It has an IMDB score of {data['imdbRating']} and the plot is as follows:\n
+                {data['Title']} is a {data['Genre']} film directed by {data['Director']}. 
+                It was released on {data['Released']} and is {data['Runtime']} long.\n
+                It has an IMDB score of {data['imdbRating']} and the plot is as follows:
                 {data['Plot']}
                 """
