@@ -143,10 +143,10 @@
 
   Above example were using notional tools that might not exist for you. On top of performing computations in the Python code snippets that you create, you only have access to these tools:
   - film_recommender: 
-      Suggests a film based on user preferences such as genre, mood or score.
-      Returns a film title, a short description, and a mock IMDB score out of 10.
+      Suggests a film based on user preference for genre.
+      Returns a film title and a short description.
       
-      Takes inputs: {'genre': {'type': 'string', 'description': 'The genre of the film (e.g., Action, Comedy, Drama).', 'required': False, 'nullable': True}, 'mood': {'type': 'string', 'description': "User's current mood or desired film mood (e.g., 'uplifting', 'thrilling').", 'required': False, 'nullable': True}, 'score': {'type': 'number', 'description': 'Film IMDB score threshold (between 0 to 10) above which the user expects the film to score.', 'required': False, 'nullable': True}}
+      Takes inputs: {'genre': {'type': 'string', 'description': 'The genre of the film (e.g., Action, Comedy, Drama).', 'required': False, 'nullable': True}
       Returns an output of type: string
   - film_metadata: 
       Retrieves information about a film given its title using the OMDB API.
