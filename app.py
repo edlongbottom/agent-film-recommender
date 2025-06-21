@@ -24,7 +24,7 @@ film_info = FilmMetadata()
 tools = [film_recommender, final_answer, film_info, watchlist]
 
 # define prompt templates
-with open("prompts.yaml", "r") as stream:
+with open("prompts/prompt_template.yaml", "r") as stream:
     prompt_templates = yaml.safe_load(stream)
 
 
